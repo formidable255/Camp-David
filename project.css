@@ -1,0 +1,83 @@
+#wrap{
+	font-family: Times, "Times New Roamn", serif;
+	font-size:1.3em;
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	padding:9px;
+}
+#intro{
+	text-align:center;
+	color:blue;
+}
+
+#content{
+	background-color:#DEB887;
+	padding:9px;
+	overflow:hidden;
+	border-radius: 15px;	
+}
+.activities{
+	height:300px;
+	float:left;
+	padding-left:5px;
+	padding-right:10px;
+	margin:auto;
+}
+
+#banner{
+	width:800px;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 15px;
+}
+.camper{
+	width:400px;
+	height:300px;
+	float:left;
+}
+#campsite{
+	width:800px;
+	height:400px;
+}
+footer{
+	background-color:#DEB887;
+	width:800px;
+	padding:8px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	float:left;
+	font-size:.7em;
+	border-radius: 15px;
+}
+
+
+
+body{
+	background-image: url("images/background.jpg");
+
+}
+#list1{
+	margin-left:auto;
+	margin-right:auto;
+	list-style-type: none;
+	width:800px;
+	padding:0;
+	overflow: hidden;
+	background-color:#DEB887;
+	border-radius: 15px;
+}
+.links{
+	float:left;
+}
+li a {
+    font-size:1.7em;
+    color: #666;
+    text-align: center;
+    padding: 15px 34px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+	background-color:#D2691E;
+}
